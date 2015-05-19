@@ -1,6 +1,6 @@
-This binary is the only one I've found to work with the NanoBeam (NBE)
+This binary is the only one I've found to work with the NanoBeam NBE-M5-19
 
-After flashing you will get a bug with LuCI http://dev.qmp.cat/issues/342
+After flashing you will get this bug with LuCI- http://dev.qmp.cat/issues/342
 
 You just need to comment out the four lines (25, 51, 52, 53) that reference luci.fs in qmp.lua
 
